@@ -51,4 +51,16 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 ## Ejercicios
- 
+
+
+1. Agrega un nuevo método a la clase UserService que se llame isValidUser() que verifique si un usuario es válido. Un usuario es válido si su nombre de usuario y contraseña no están vacíos. El método debería devolver true si el usuario es válido y false si no lo es.
+
+2. Escribe un conjunto de pruebas para el nuevo método isValidUser(). Asegúrate de cubrir los siguientes casos:
+
+- Caso feliz: el usuario es válido.
+- El nombre de usuario está vacío.
+- La contraseña está vacía.
+- Ambos el nombre de usuario y la contraseña están vacíos.
+
+3. Utiliza Mockito y JUnit para escribir pruebas unitarias para el método isValidUser(). Deberás crear una instancia de UserService y utilizar un mock para simular el objeto UserRepository. Verifica que el método isValidUser() devuelve el resultado esperado para cada caso de prueba.
+
